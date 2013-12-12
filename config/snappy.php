@@ -1,9 +1,9 @@
 <?php
 
 return array(
-	
+
 	'defaults' => array(
-		'binary' => '', //path to binary
+		'binary' => '/usr/local/bin/wkhtmltopdf', //path to binary
 		'pdf' => array(
 			'ignore-load-errors'           => null, // old v0.9
             'lowquality'                   => true,
@@ -117,7 +117,7 @@ return array(
             'toc-text-size-shrink'         => null,
             'xsl-style-sheet'              => null,
 		),
-		
+
 		'image' => array(
 			'allow'                        => null,    // Allow the file or files from the specified folder to be loaded (repeatable)
             'checkbox-checked-svg'         => null,    // Use this SVG file when rendering checked checkboxes
@@ -164,7 +164,7 @@ return array(
             'window-status'                => null,    // Wait until window.status is equal to this string before rendering page
             'zoom'                         => null,    // Use this zoom factor (default 1)
 		)
-		
+
 	),
-	
+
 );
